@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="424f1b81-3971-4c93-932a-f1b1354beaca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="424f1b81-3971-4c93-932a-f1b1354beaca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +46,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576814812805</updated>
-      <workItem from="1576814816764" duration="2966000" />
+      <workItem from="1576814816764" duration="3231000" />
     </task>
     <servers />
   </component>
@@ -81,22 +78,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1576818717544">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1576818936510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576818717544" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1576818717544">
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576818936510" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1576818909893">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576818717544" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1576818717543">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576818909893" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1576818909892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576818717543" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1576818717544">
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576818909892" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1576818909891">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576818717544" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576818909891" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1576818909893">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576818909893" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1576814981164">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

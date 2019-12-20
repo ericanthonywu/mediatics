@@ -6,8 +6,8 @@ const {ig: Post} = require('../model')
 const mongoose = require('mongoose')
 
 router.get('/', async (req, res) => {
-    ig.deepScrapeTagPage('ootd').then(data => {
-        const postData = []
+    const postData = []
+    const scrap = () => ig.deepScrapeTagPage('ootd').then(data => {
         data.medias.forEach(data => {
             postData.push({
                 username: data.owner.username || "",
@@ -17,9 +17,9 @@ router.get('/', async (req, res) => {
                 tanggalPosting: moment(data.taken_at_timestamp).toISOString()
             })
         })
-        Post.insertMany(postData).then(() => res.status(200).json()).catch(err => console.log(err)).finally(() => mongoose.connection.close())
     }).catch(err => res.status(500).json(err))
-
+    await scrap()
+    Post.insertMany(postData).then(() => res.status(200).json()).catch(err => console.log(err)).finally(() => mongoose.connection.close())
 })
 
 module.exports = router;
